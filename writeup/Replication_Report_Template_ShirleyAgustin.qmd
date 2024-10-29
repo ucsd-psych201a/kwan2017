@@ -1,6 +1,6 @@
 ---
 title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
-author: "Replication Author[s] (contact information)"
+author: "Shirley Agustin (contact information)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
