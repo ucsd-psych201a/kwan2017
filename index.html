@@ -134,6 +134,38 @@
     ]
   };
   timeline.push(gender_trial);
+  
+// recall
+var statement_cues = [
+  "A heart in...", 
+  "Every day is...", 
+  "Happiness shared is...", 
+  "Keep calm and...", 
+  "Life is too...", 
+  "Love is shown...", 
+  "Make time for...", 
+  "Men never remember...", 
+  "Take each day...", 
+  "The best mirror..."
+];
+
+// Loop through images and create recall trials
+randomized_images.forEach(function(image, index) {
+  var recall_trial = {
+    type: jsPsychSurveyText,
+    version: '1.0.0',
+    data: { trial_id: `recall_statement_${index + 1}` },
+    questions: [
+      { 
+        prompt: `Based on the cue below, please recall and type the rest of the statement: <br><b>${statement_cues[index]}</b>`, 
+        rows: 3, 
+        columns: 50 
+      }
+    ]
+  };
+  timeline.push(recall_trial);
+});
+
 //save data
   const save_data = {
                 type: jsPsychPipe,
