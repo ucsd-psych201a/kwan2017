@@ -56,6 +56,14 @@
   };
   timeline.push(welcome);
 
+  // Consent
+  var consent = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: 'hi',
+    choices: ['next']
+  }
+  timeline.push(consent);
+
   // Instructions
   var instructions = {
     type: jsPsychHtmlKeyboardResponse,
