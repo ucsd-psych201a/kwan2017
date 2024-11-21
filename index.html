@@ -6,6 +6,7 @@
   <script src="https://unpkg.com/jspsych@8.0.0"></script>
   <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.0.0"></script>
   <script src="https://unpkg.com/@jspsych/plugin-html-button-response@2.0.0"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-instructions@2.0.0"></script>
   <script src="https://unpkg.com/@jspsych/plugin-audio-button-response@2.0.0"></script>
   <script src="https://unpkg.com/@jspsych/plugin-preload@2.0.0"></script>
   <script src="https://unpkg.com/@jspsych/plugin-survey-text@2.0.0"></script>
@@ -59,10 +60,10 @@
 
   // Consent
   var consent = {
-    type: jsPsychHtmlButtonResponse,
-    stimulus: `<p>hi</p>`,
-    choices: ['Next'],
-    prompt: "<p>Press next to proceed</p>
+    type: jsPsychInstructions,
+    pages: [`<p>hi</p>`],
+    button_label_next: "Continue",
+    show_clickable_nav: true
   }
   timeline.push(consent);
 
