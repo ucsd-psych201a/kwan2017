@@ -1,6 +1,6 @@
 ---
 title: "Replication of Study 3 by Kwan, Dai & Wyer,JR (2017, Journal of Consumer Research)"
-author: "Shirley Agustin(shagustin@ucsd.edu), Arushi Srivastava (arsrivastava@ucsd.edu), Elaine Young "
+author: "Shirley Agustin, Arushi Srivastava (arsrivastava@ucsd.edu), Elaine Young "
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
