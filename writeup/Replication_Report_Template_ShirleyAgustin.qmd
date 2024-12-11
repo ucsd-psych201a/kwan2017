@@ -1,6 +1,6 @@
 ---
-title: "Replication of Study 3 by Kwan, Dai & Wyer,JR (2017, Journal of Consumer Research)"
-author: "Shirley Agustin, Arushi Srivastava (arsrivastava@ucsd.edu), Elaine Young "
+title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
+author: "Shirley Agustin shagustin@ucsd.edu"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
@@ -12,74 +12,35 @@ format:
 
 ## Introduction
 
-This replication project is based on the third study that was run in the "Contextual Influences on Message Persuasion: The Effect of Empty Space" by Kwan, Dai, and Wyer,JR (2017, Journal of Consumer Research). In this study it was found that participants did not evaluate the statements with empty space highly. However, participants were able to recall more statements in the empty space rather than the ones in the limited space. This project will further our understanding of empty space in the field of advertising while also getting a better understanding of visual cues and verbal messages.
-
-[GitHub Repository](https://github.com/ucsd-psych201a/kwan2017)
-
-[Original Paper](https://github.com/ucsd-psych201a/kwan2017/tree/main/original_paper)
-
-[Experimental Paradigm](https://ucsd-psych201a.github.io/kwan2017/)
+\[No abstract is needed.\] Each replication project will have a straightforward, no frills report of the study and results. These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole. Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection. Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information. It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.
 
 ## Methods
 
 ### Power Analysis
 
-To preface, the following estimate is based on default inputs in G Power. The original paper did not report enough parameters to determine an effect size accurately. Based on the f-test that we ran on G Power, we found that for an effect size of 0.25 we would need an estimate of 102 participants to achieve 0.8 power.
-
-### Design Overview
-
-The factor that was manipulated in this study was the empty spaces surrounding the statements presented to the participants. These two conditions are labeled as limited space condition and empty space condition.
-
-The measure that was taken in this study was a survey given to participants to understand favorability of the statements in different conditions. This measure was not repeated and the study used within-participants.
-
-The experiment could not use between-participants as particpants need to be exposed to both conditions for the experiment to run.
-
-Steps were not taken to reduce demand characteristics. The potential confounds in the study would be the amount of words in the statements selected and the themes of the statements. They may be more likely to recall quotes with a smaller amount of words and some themes may resonate with participants more which may cause participants to recall certain quotes.
+Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size. Considerations of feasibility for selecting planned sample size.
 
 ### Planned Sample
 
-The original study had ninety four US residents that were recruited on Mechanical Turk for a monetary incentive. The amount of the monetary incentive was not disclosed by the authors. Although in an independent study mentioned in the general discussion of the paper it was disclosed that participants were payed \$.20. The only known demographics in this sample was the mention of 36 male participants in the study.
-
-There were no preselection rules mentioned in the study.
+Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
 
 ### Materials
 
-"We will create ten statements drawn from social media, covering topics such as romance, happiness, and personal values. These statements will vary in length from 3 to 11 words and will be presented uniformly in terms of font type, size, text positioning, line spacing, paragraphing, and background graphics".
-
-"In the Limited Space Condition, quotes will be shown in a box sized between 420 × 315 pixels and 660 × 165 pixels, with no extra space around the border. In the Empty Space Condition, quotes will be displayed in a box ranging from 960 × 720 pixels to 960 × 240 pixels, surrounded by significant empty space".
-
-The materials above will be precisely the same.
-
-The quotes that will be presented to the participants are the following:
-
-1.  Keep calm and carry on.
-2.  Men never remember but women never forget.
-3.  The best mirror is an old friend.
-4.  Happiness shared is happiness doubled.
-5.  Love is shown more in deeds than in words.
-6.  Every day is a chance to grow.
-7.  Take each day one step at a time.
-8.  A heart in love has no limits.
-9.  Life is too precious to waste on regrets.
-10. Make time for what makes you smile.
+All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely. Or, quote directly and just point out exceptions to what was described in the original article.
 
 ### Procedure
 
-"Participants first completed a survey called 'Quotes-of-the-Year,' during which they evaluated 10 statements sourced from social media platforms like Twitter and Facebook. These statements varied in length from 3 to 11 words and addressed various topics, including ro- mance (e.g., 'try to reason about love and you will lose your reason'), happiness (e.g., 'life is too short for tears'), and personal values (e.g., 'follow your heart'). All statements were pre- sented in the same font type, size, text positioning, line spacing, paragraphing, and background graphics".
-
-"In the limited space condition, each quote was displayed in a box measuring between 420 × 315 pixels and 660 × 165 pixels, with no extra space around the border. In contrast, the empty space condition featured a box size ranging from 960 × 720 pixels to 960 × 240 pixels, surrounded by significant empty space".
-
-"Participants reviewed all 10 quotes in both conditions. After reading each quote, they indicated how much they liked it and how important they thought it was, using a scale from 1 (not at all) to 7 (very much). Their responses were averaged to create a single measure of message persuasiveness ( = .88). Additionally, the time spent evaluating each quote was recorded, with the total time serving as an indicator of message deliberation".
-
-"Finally, participants reported their age and gender before being given the first few words of each quote as a cue and asked to recall it as accurately as possible."
+Can quote directly from original article - just put the text in quotations and note that this was followed precisely. Or, quote directly and just point out exceptions to what was described in the original article.
 
 ### Analysis Plan
 
-We plan to run F-tests to compare favorability, and response time between the empty space condition and the limited space condition.
+Can also quote directly, though it is less often spelled out effectively for an analysis strategy section. The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.
+
+**Clarify key analysis of interest here** You can also pre-specify additional analyses you plan to do.
 
 ### Differences from Original Study
 
-Our group is going to select new messages to present to the participants. In the original appendix of the study there is only three pairs of examples provided. The group will select messages from social media. The findings in the original study claim that empty spaces will cause the messages to be rated less favorably. Therefore, the content of the messages should not play a big factor in recall rate and favorability.
+Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study. The goal, of course, is to minimize those differences, but differences will inevitably occur. Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
 
 ### Methods Addendum (Post Data Collection)
 
@@ -97,90 +58,25 @@ Any differences from what was described as the original plan, or “none”.
 
 ### Data preparation
 
-a)  Data import and initial inspection
-
-```{r}
-data <-  read.csv("/Users/shirley/Downloads/PSYCH201A/replication_pilot 2/Data_3.csv", header = TRUE)
-
-str(data)
-summary(data) #inspect
-head(data) #preview
-
-read.csv("/Users/shirley/Downloads/PSYCH201A/replication_pilot 2/Data_3.csv", row.names = NULL, check.names = FALSE)
-```
-
-
-#Assigning conditions
-
-```{r}
-empty_space <- data$Response.Time[data$Condition == "empty_space"]
-limited_space <- data$Response.Time[data$Condition == "limited_space"]
-```
-
-b)  Data Cleaning
-
-```{r}
-my_data <- na.omit(data)  # Removes rows with any NA values
-### Convert space_condition to factor if not already
-my_data$Condition <- as.factor(my_data$Condition)
-### Checking for duplicates using (duplicated) to ensure no rows are repeated
-```
-
-c)  Defining exclusion criteria \### Removing participants with incomplete responses
-
-```{r}
-#my_data <- filter(my_data, complete_cases == TRUE)
-```
-
-d)  Final Preparation \### Check the structure after data preparation
-
-```{r}
-str(data)
-summary(my_data)
-```
+Data preparation following the analysis plan.
 
 ```{r include=F}
+### Data Preparation
+
 #### Load Relevant Libraries and Functions
-library("dplyr")
-library ("lavaan")
+
 #### Import data
-#my_data <- read.csv(file.choose())
+
 #### Data exclusion / filtering
-sample_n(my_data, 10)
-favor.ftest <- var.test(empty_space, limited_space)
-time.ftest <- var.test(data$Response.Time[data$Condition == "empty_space"],
-                       data$Response.Time[data$Condition == "limited_space"])
-favor.ftest
-favor.ftest$estimate
-favor.ftest$p.value
-time.ftest
-time.ftest$estimate
-time.ftest$p.value
+
+#### Prepare data for analysis - create columns etc.
 ```
 
-# Justification of F test
+### Confirmatory analysis
 
-The original study compares the favorability of empty spaces and limited space conditions. The comparison of two samples suggests that an F test should be used to test for variance. ANOVA will also be used in this analysis to determine if there is a significant difference between the two groups in the study.
+The analyses as specified in the analysis plan.
 
-The original study used an F-test or ANOVA to analyze this comparison, then using the same approach is consistent with replication goals, further justifying its use.
-
-# Confirmatory analysis
-
-# F test
-
-```{r}
-f_test_result <- var.test(empty_space, limited_space)
-print(f_test_result)
-```
-
-# Perform ANOVA
-
-```{r}
-anova_result <- aov(Response.Time ~ Condition, data = my_data)
-summary(anova_result)
-```
-
-For Pilot B the average time participants took to complete the Pilot B was around 6 minutes.
+*Side-by-side graph with original graph is ideal here*
 
 ### Exploratory analyses
 
