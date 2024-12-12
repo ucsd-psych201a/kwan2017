@@ -1,0 +1,35 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","plugin_version","time_elapsed","condition","rt","stimulus","response","view_history","trial_id","question_order"
+"true","false","[]","[]","[]","preload","0","2.0.0","135","limited_space","","","","","",""
+"","","","","","html-keyboard-response","1","2.0.0","6909","limited_space","6772","
+      <p>Welcome to our study!</p>
+      <p>In this brief study, you will see ten quotes from social platforms and answer a few questions.</p>
+      <p>Please press any key when you are ready.</p>
+    ","h","","",""
+"","","","","","instructions","2","2.0.0","30744","limited_space","23834","","","[{""page_index"":0,""viewing_time"":23834}]","",""
+"","","","","","html-keyboard-response","3","2.0.0","36124","limited_space","5378","
+      <p>Next, you will be shown the first few words of each quote you have previously seen.</p>
+      <p>Please try your best to recall the full quote, and fill in the blanks.</p>
+      <p>Please press any key when you are ready.</p>
+    ","k","","",""
+"","","","","","survey-likert","4","null","54833","limited_space","18707","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","5","null","59023","limited_space","4187","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","6","null","63173","limited_space","4150","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","7","null","67992","limited_space","4818","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","8","null","77643","limited_space","9650","","{""Q0"":0,""Q1"":0}","","likert_question","[0,1]"
+"","","","","","survey-likert","9","null","90398","limited_space","12753","","{""Q0"":0,""Q1"":0}","","likert_question","[0,1]"
+"","","","","","survey-likert","10","null","96103","limited_space","5703","","{""Q0"":0,""Q1"":0}","","likert_question","[0,1]"
+"","","","","","survey-likert","11","null","101133","limited_space","5030","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","12","null","106267","limited_space","5133","","{""Q0"":3,""Q1"":3}","","likert_question","[0,1]"
+"","","","","","survey-likert","13","null","110378","limited_space","4109","","{""Q0"":0,""Q1"":0}","","likert_question","[0,1]"
+"","","","","","survey-text","14","2.0.0","117407","limited_space","7009","","{""Q0"":""25""}","","age_question",""
+"","","","","","survey-multi-choice","15","null","120812","limited_space","3404","","{""gender"":""Male""}","","gender_question","[0]"
+"","","","","","survey-text","16","2.0.0","164169","limited_space","43353","","{""Q0"":""love has no limits""}","","recall_statement_1",""
+"","","","","","survey-text","17","2.0.0","182063","limited_space","17893","","{""Q0"":""a good day when shared""}","","recall_statement_2",""
+"","","","","","survey-text","18","2.0.0","189018","limited_space","6953","","{""Q0"":""happiness doubled""}","","recall_statement_3",""
+"","","","","","survey-text","19","2.0.0","192808","limited_space","3787","","{""Q0"":""carry on""}","","recall_statement_4",""
+"","","","","","survey-text","20","2.0.0","200613","limited_space","7803","","{""Q0"":""short to worry on the little things""}","","recall_statement_5",""
+"","","","","","survey-text","21","2.0.0","215157","limited_space","14542","","{""Q0"":""more in deeds than in words""}","","recall_statement_6",""
+"","","","","","survey-text","22","2.0.0","220503","limited_space","5345","","{""Q0"":""your loved one ""}","","recall_statement_7",""
+"","","","","","survey-text","23","2.0.0","230894","limited_space","10388","","{""Q0"":""women never forget""}","","recall_statement_8",""
+"","","","","","survey-text","24","2.0.0","235503","limited_space","4607","","{""Q0"":""one day at a time""}","","recall_statement_9",""
+"","","","","","survey-text","25","2.0.0","242533","limited_space","7028","","{""Q0"":""is an old friend""}","","recall_statement_10",""

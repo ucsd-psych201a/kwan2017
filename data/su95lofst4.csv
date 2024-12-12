@@ -1,0 +1,35 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","plugin_version","time_elapsed","condition","rt","stimulus","response","view_history","trial_id","question_order"
+"true","false","[]","[]","[]","preload","0","2.0.0","4383","limited_space","","","","","",""
+"","","","","","html-keyboard-response","1","2.0.0","326362","limited_space","321974","
+      <p>Welcome to our study!</p>
+      <p>In this brief study, you will see ten quotes from social platforms and answer a few questions.</p>
+      <p>Please press any key when you are ready.</p>
+    "," ","","",""
+"","","","","","instructions","2","2.0.0","328131","limited_space","1765","","","[{""page_index"":0,""viewing_time"":1765}]","",""
+"","","","","","html-keyboard-response","3","2.0.0","328868","limited_space","733","
+      <p>Next, you will be shown the first few words of each quote you have previously seen.</p>
+      <p>Please try your best to recall the full quote, and fill in the blanks.</p>
+      <p>Please press any key when you are ready.</p>
+    "," ","","",""
+"","","","","","survey-likert","4","null","359213","limited_space","30336","","{""Q0"":5,""Q1"":4}","","likert_question","[0,1]"
+"","","","","","survey-likert","5","null","410466","limited_space","51247","","{""Q0"":5,""Q1"":4}","","likert_question","[0,1]"
+"","","","","","survey-likert","6","null","416120","limited_space","5646","","{""Q0"":4,""Q1"":5}","","likert_question","[0,1]"
+"","","","","","survey-likert","7","null","426156","limited_space","10029","","{""Q0"":6,""Q1"":5}","","likert_question","[0,1]"
+"","","","","","survey-likert","8","null","432396","limited_space","6233","","{""Q0"":5,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","9","null","436445","limited_space","4043","","{""Q0"":5,""Q1"":4}","","likert_question","[0,1]"
+"","","","","","survey-likert","10","null","441023","limited_space","4572","","{""Q0"":4,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","11","null","447110","limited_space","6080","","{""Q0"":4,""Q1"":2}","","likert_question","[0,1]"
+"","","","","","survey-likert","12","null","453319","limited_space","6203","","{""Q0"":5,""Q1"":5}","","likert_question","[0,1]"
+"","","","","","survey-likert","13","null","457641","limited_space","4316","","{""Q0"":4,""Q1"":4}","","likert_question","[0,1]"
+"","","","","","survey-text","14","2.0.0","462015","limited_space","4350","","{""Q0"":""27""}","","age_question",""
+"","","","","","survey-multi-choice","15","null","464555","limited_space","2533","","{""gender"":""Female""}","","gender_question","[0]"
+"","","","","","survey-text","16","2.0.0","509691","limited_space","45103","","{""Q0"":""your hands is safe, but a heart in your care is priceless.""}","","recall_statement_1",""
+"","","","","","survey-text","17","2.0.0","559693","limited_space","49974","","{""Q0"":""is a new chance to love more than yesterday""}","","recall_statement_2",""
+"","","","","","survey-text","18","2.0.0","699162","limited_space","139442","","{""Q0"":""happiness doubled""}","","recall_statement_3",""
+"","","","","","survey-text","19","2.0.0","741609","limited_space","42422","","{""Q0"":""carry on.""}","","recall_statement_4",""
+"","","","","","survey-text","20","2.0.0","761147","limited_space","19508","","{""Q0"":""enjoy the least chance you get.""}","","recall_statement_5",""
+"","","","","","survey-text","21","2.0.0","789885","limited_space","28711","","{""Q0"":""through actions speaks louder than words.""}","","recall_statement_6",""
+"","","","","","survey-text","22","2.0.0","809447","limited_space","19536","","{""Q0"":""those who love you .""}","","recall_statement_7",""
+"","","","","","survey-text","23","2.0.0","853271","limited_space","43801","","{""Q0"":""women never forget.""}","","recall_statement_8",""
+"","","","","","survey-text","24","2.0.0","918474","limited_space","65180","","{""Q0"":""one kiss at a time, with the one you love.\n""}","","recall_statement_9",""
+"","","","","","survey-text","25","2.0.0","935037","limited_space","16539","","{""Q0"":""is your old friend.""}","","recall_statement_10",""

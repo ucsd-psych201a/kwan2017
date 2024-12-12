@@ -1,0 +1,35 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","plugin_version","time_elapsed","condition","rt","stimulus","response","view_history","trial_id","question_order"
+"true","false","[]","[]","[]","preload","0","2.0.0","5967","limited_space","","","","","",""
+"","","","","","html-keyboard-response","1","2.0.0","19856","limited_space","13887","
+      <p>Welcome to our study!</p>
+      <p>In this brief study, you will see ten quotes from social platforms and answer a few questions.</p>
+      <p>Please press any key when you are ready.</p>
+    "," ","","",""
+"","","","","","instructions","2","2.0.0","160634","limited_space","140776","","","[{""page_index"":0,""viewing_time"":140776}]","",""
+"","","","","","html-keyboard-response","3","2.0.0","255802","limited_space","95166","
+      <p>Next, you will be shown the first few words of each quote you have previously seen.</p>
+      <p>Please try your best to recall the full quote, and fill in the blanks.</p>
+      <p>Please press any key when you are ready.</p>
+    "," ","","",""
+"","","","","","survey-likert","4","null","282464","limited_space","26658","","{""Q0"":5,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","5","null","298100","limited_space","15632","","{""Q0"":4,""Q1"":4}","","likert_question","[0,1]"
+"","","","","","survey-likert","6","null","317335","limited_space","19232","","{""Q0"":5,""Q1"":5}","","likert_question","[0,1]"
+"","","","","","survey-likert","7","null","328342","limited_space","11004","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","8","null","337736","limited_space","9390","","{""Q0"":6,""Q1"":5}","","likert_question","[0,1]"
+"","","","","","survey-likert","9","null","347258","limited_space","9518","","{""Q0"":5,""Q1"":5}","","likert_question","[0,1]"
+"","","","","","survey-likert","10","null","356404","limited_space","9143","","{""Q0"":6,""Q1"":5}","","likert_question","[0,1]"
+"","","","","","survey-likert","11","null","370539","limited_space","14133","","{""Q0"":6,""Q1"":5}","","likert_question","[0,1]"
+"","","","","","survey-likert","12","null","383517","limited_space","12972","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","13","null","394073","limited_space","10552","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-text","14","2.0.0","419343","limited_space","25264","","{""Q0"":""31""}","","age_question",""
+"","","","","","survey-multi-choice","15","null","424261","limited_space","4916","","{""gender"":""Male""}","","gender_question","[0]"
+"","","","","","survey-text","16","2.0.0","425375","limited_space","596","","{""Q0"":""""}","","recall_statement_1",""
+"","","","","","survey-text","17","2.0.0","1094771","limited_space","669390","","{""Q0"":""“Every day is a new opportunity to make your life even better.”""}","","recall_statement_2",""
+"","","","","","survey-text","18","2.0.0","1196557","limited_space","101782","","{""Q0"":""“Happiness shared is happiness doubled.”""}","","recall_statement_3",""
+"","","","","","survey-text","19","2.0.0","1250491","limited_space","53929","","{""Q0"":""“Keep calm and carry on.”""}","","recall_statement_4",""
+"","","","","","survey-text","20","2.0.0","1313876","limited_space","63368","","{""Q0"":""“Life is too short to waste time on things that don't bring you joy.”""}","","recall_statement_5",""
+"","","","","","survey-text","21","2.0.0","1370049","limited_space","56141","","{""Q0"":""“Love is shown in deeds, not words.”""}","","recall_statement_6",""
+"","","","","","survey-text","22","2.0.0","1441436","limited_space","71370","","{""Q0"":""“Make time for the things that make you feel alive.”""}","","recall_statement_7",""
+"","","","","","survey-text","23","2.0.0","1531100","limited_space","89659","","{""Q0"":""“Men never remember, but women never forget.”""}","","recall_statement_8",""
+"","","","","","survey-text","24","2.0.0","1591200","limited_space","60094","","{""Q0"":""“Take each day as it comes.”""}","","recall_statement_9",""
+"","","","","","survey-text","25","2.0.0","1663149","limited_space","71928","","{""Q0"":""“The best mirror is an old friend.”""}","","recall_statement_10",""

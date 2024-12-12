@@ -1,0 +1,35 @@
+"success","timeout","failed_images","failed_audio","failed_video","trial_type","trial_index","plugin_version","time_elapsed","condition","rt","stimulus","response","view_history","trial_id","question_order"
+"true","false","[]","[]","[]","preload","0","2.0.0","506","limited_space","","","","","",""
+"","","","","","html-keyboard-response","1","2.0.0","11662","limited_space","11152","
+      <p>Welcome to our study!</p>
+      <p>In this brief study, you will see ten quotes from social platforms and answer a few questions.</p>
+      <p>Please press any key when you are ready.</p>
+    ","h","","",""
+"","","","","","instructions","2","2.0.0","19561","limited_space","7896","","","[{""page_index"":0,""viewing_time"":7896}]","",""
+"","","","","","html-keyboard-response","3","2.0.0","21265","limited_space","1703","
+      <p>Next, you will be shown the first few words of each quote you have previously seen.</p>
+      <p>Please try your best to recall the full quote, and fill in the blanks.</p>
+      <p>Please press any key when you are ready.</p>
+    ","h","","",""
+"","","","","","survey-likert","4","null","28872","limited_space","7599","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","5","null","34108","limited_space","5232","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","6","null","37541","limited_space","3428","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","7","null","41948","limited_space","4403","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","8","null","47078","limited_space","5123","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","9","null","51191","limited_space","4109","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","10","null","55727","limited_space","4532","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","11","null","61723","limited_space","5992","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","12","null","69004","limited_space","7276","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-likert","13","null","72274","limited_space","3265","","{""Q0"":6,""Q1"":6}","","likert_question","[0,1]"
+"","","","","","survey-text","14","2.0.0","75995","limited_space","3712","","{""Q0"":""27""}","","age_question",""
+"","","","","","survey-multi-choice","15","null","78855","limited_space","2857","","{""gender"":""Female""}","","gender_question","[0]"
+"","","","","","survey-text","16","2.0.0","110128","limited_space","31260","","{""Q0"":""I can't remember.""}","","recall_statement_1",""
+"","","","","","survey-text","17","2.0.0","378983","limited_space","268851","","{""Q0"":""I can't recall.""}","","recall_statement_2",""
+"","","","","","survey-text","18","2.0.0","395088","limited_space","16101","","{""Q0"":""Happiness shared is happiness doubled.""}","","recall_statement_3",""
+"","","","","","survey-text","19","2.0.0","419362","limited_space","24271","","{""Q0"":""Keep calm and carry on.""}","","recall_statement_4",""
+"","","","","","survey-text","20","2.0.0","427468","limited_space","8103","","{""Q0"":""I can't recall.""}","","recall_statement_5",""
+"","","","","","survey-text","21","2.0.0","443938","limited_space","16465","","{""Q0"":""I don't remember.""}","","recall_statement_6",""
+"","","","","","survey-text","22","2.0.0","456095","limited_space","12154","","{""Q0"":""I don't recall.""}","","recall_statement_7",""
+"","","","","","survey-text","23","2.0.0","486089","limited_space","29991","","{""Q0"":""Men never remember. Women don't forget.""}","","recall_statement_8",""
+"","","","","","survey-text","24","2.0.0","740879","limited_space","254787","","{""Q0"":""Take each day one step at a time.                    ""}","","recall_statement_9",""
+"","","","","","survey-text","25","2.0.0","749771","limited_space","8889","","{""Q0"":""The best mirror is an old friend.""}","","recall_statement_10",""
