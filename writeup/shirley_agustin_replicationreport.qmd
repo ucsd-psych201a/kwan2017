@@ -1,0 +1,636 @@
+---
+title: "Replication of Study 3 by Kwan, Dai & Wyer,JR (2017, Journal of Consumer Research)"
+author: "Shirley Agustin (shagustin@ucsd.edu), Arushi Srivastava (arsrivastava@ucsd.edu), Elaine Young (juy033@ucsd.edu)"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+format:
+  html:
+    toc: true
+    toc_depth: 3
+---
+
+<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+
+## Introduction
+
+This replication project is based on the third study that was run in the "Contextual Influences on Message Persuasion: The Effect of Empty Space" by Kwan, Dai, and Wyer,JR (2017, Journal of Consumer Research). This study aimed to understand if people pay less attention to a message if it is surrounded by empty space. The results of the study show that participants did not evaluate the statements with empty space highly. However, participants were able to recall more statements in the empty space condition rather than the ones in the limited space condition. This project will further the understanding of empty space in consumer behavior centered fields, such as advertising and public relations, while simultaneously helping us gain an understanding of visual cues and verbal messages.
+
+[GitHub Repository](https://github.com/ucsd-psych201a/kwan2017)
+
+[Original Paper](https://github.com/ucsd-psych201a/kwan2017/tree/main/original_paper)
+
+[Experimental Paradigm](https://ucsd-psych201a.github.io/kwan2017/)
+
+## Methods
+
+### Power Analysis
+
+To preface, the following estimate is based on default inputs in G Power. The original paper did not report enough parameters to determine an effect size accurately. Based on the ANOVA that we ran on G Power, we found that for an effect size of 0.25 we would need an estimate of 128 participants to achieve 0.8 power.
+
+### Design Overview
+
+The factor that was manipulated in this study was the empty spaces surrounding the statements presented to the participants. These two conditions are labeled as limited space condition and empty space condition.
+
+The measure that was taken in this study was a survey given to participants to understand favorability of the statements in different conditions. This measure was not repeated and the study used within-participants.
+
+The experiment could not use between-participants as participants need to be exposed to both conditions, empty and limited space condition, for the experiment to run.
+
+Steps were not taken to reduce demand characteristics. The potential confounds in the study would be the amount of words in the statements selected and the themes of the statements. They may be more likely to recall quotes with a smaller amount of words and some themes may resonate with participants more which may cause participants to recall certain quotes better than others.
+
+### Planned Sample
+
+The original study had ninety four US residents that were recruited on Mechanical Turk for a monetary incentive. The amount of the monetary incentive was not disclosed by the authors. Although in an independent study mentioned in the general discussion of the paper it was disclosed that participants were payed $.20. The only known demographics in this sample was the mention of 36 male participants and US residency in the study.
+
+There were no preselection rules mentioned in the study.
+
+### Materials
+
+"We will create ten statements drawn from social media, covering topics such as romance, happiness, and personal values. These statements will vary in length from 3 to 11 words and will be presented uniformly in terms of font type, size, text positioning, line spacing, paragraphing, and background graphics" (Kwan et al.,2017).
+
+"In the Limited Space Condition, quotes will be shown in a box sized between 420 × 315 pixels and 660 × 165 pixels, with no extra space around the border. In the Empty Space Condition, quotes will be displayed in a box ranging from 960 × 720 pixels to 960 × 240 pixels, surrounded by significant empty space"(Kwan et al.,2017).
+
+The steps taken above will be precisely the same.
+
+The quotes that will be presented to the participants are the following:
+
+1.  Keep calm and carry on.
+2.  Men never remember but women never forget.
+3.  The best mirror is an old friend.
+4.  Happiness shared is happiness doubled.
+5.  Love is shown more in deeds than in words.
+6.  Every day is a chance to grow.
+7.  Take each day one step at a time.
+8.  A heart in love has no limits.
+9.  Life is too precious to waste on regrets.
+10. Make time for what makes you smile.
+
+### Procedure
+
+"Participants first completed a survey called 'Quotes-of-the-Year,' during which they evaluated 10 statements sourced from social media platforms like Twitter and Facebook. These statements varied in length from 3 to 11 words and addressed various topics, including romance (e.g., 'try to reason about love and you will lose your reason'), happiness (e.g., 'life is too short for tears'), and personal values (e.g., 'follow your heart'). All statements were presented in the same font type, size, text positioning, line spacing, paragraphing, and background graphics"(Kwan et al.,2017).
+
+"In the limited space condition, each quote was displayed in a box measuring between 420 × 315 pixels and 660 × 165 pixels, with no extra space around the border. In contrast, the empty space condition featured a box size ranging from 960 × 720 pixels to 960 × 240 pixels, surrounded by significant empty space"(Kwan et al.,2017).
+
+"Participants reviewed all 10 quotes in both conditions. After reading each quote, they indicated how much they liked it and how important they thought it was, using a scale from 1 (not at all) to 7 (very much). Their responses were averaged to create a single measure of message persuasiveness ( = .88). Additionally, the time spent evaluating each quote was recorded, with the total time serving as an indicator of message deliberation"(Kwan et al.,2017).
+
+"Finally, participants reported their age and gender before being given the first few words of each quote as a cue and asked to recall it as accurately as possible" (Kwan et al.,2017).
+
+### Analysis Plan
+
+We plan to run F-tests and anova tests to compare favorability, and response time between the empty space condition and the limited space condition as our key test.
+
+### Differences from Original Study
+
+Our group is going to select new messages to present to the participants. In the original appendix of the study there is only three pairs of examples provided. The group will select messages from social media. The findings in the original study claim that empty spaces will cause the messages to be rated less favorably. Therefore, the content of the messages should not play a big factor in recall rate and favorability.
+
+### Methods Addendum (Post Data Collection)
+
+#### Actual Sample
+
+Our sample size ended with a total of 86 participants. This was less than our planned sample size of 128 participants, and less than the sample size in the original study of 94 participants. 
+
+#### Differences from pre-data collection methods plan
+
+Due to a bug in our code we had to make amends to the original plan we had as now we had to work with a relatively smaller sample size. This bug was caused by an error in the code that led participants to a blank screen rather than the prepared paradigm. This caused us to lose a large majority of participants as there was not attainable data. 
+
+These changes led us to investigate an effective way to analyze our findings with the remaining participants, which led us to the decision to run an anova test rather than both an f-test and anova separately. We believed that an F alone will not give us enough information and that it would be best to use anova to support it when analyzing our message persuasiveness variable.
+
+Approaching the recall variable in the study was a daunting challenge at the beginning as the original study did not go into depth on how they approached analyzing this variable. We originally planned to not move forward with the recall variable and only proceed with message persuasiveness. We were then able to connect with one of the original authors who gave the team insight on the original approach. A point that stood out from this interaction was that a recall answer was marked as "correct" of the words matched or had a similar meaning to the statement presented to the participants. This led us to compare the original statements using two rubrics, exact match and fuzzy match. The participant's response was either an exact match after cleaning the responses or we would compute the dissimilarity between two strings using the stringdist package. The fuzzy match was then defined as an 80% similarity (pre-registered).
+
+## Results
+
+### Data preparation
+```{r, echo = TRUE}
+setwd("/Users/shirley/Downloads/statsfinal_2/data")
+
+
+# List all CSV files in the directory
+csv_files <- list.files(pattern = "*.csv")
+
+# Read and combine all CSV files into one data frame
+data <- do.call(rbind, lapply(csv_files, read.csv))
+
+# View the merged data
+head(data)
+
+library(dplyr)
+library(stringr)
+library(tidytext)
+library(ggplot2)
+library(gridExtra)
+
+
+# Select all the data for likert scale: response time, importance, favorbility
+survey_likert_data <- data %>%
+  filter(trial_type == "survey-likert")
+
+# View the filtered dataframe
+head(survey_likert_data)
+
+survey_likert_data$importance <- substr(survey_likert_data$response, 7, 7)
+survey_likert_data$likability<- substr(survey_likert_data$response, 14, 14)
+
+
+empty_likert_data <- survey_likert_data %>%
+  filter(condition == "empty_space")
+
+limited_likert_data <- survey_likert_data %>%
+  filter(condition == "limited_space")
+
+limited_likert_data$importance <- as.numeric(limited_likert_data$importance)
+empty_likert_data$importance <- as.numeric(empty_likert_data$importance)
+limited_likert_data$likability <- as.numeric(limited_likert_data$likability)
+empty_likert_data$likability <- as.numeric(empty_likert_data$likability)
+
+
+```
+
+
+
+
+
+```{r, echo = TRUE}
+# For empty condition, calculate the mean importance, favorability and response time for each person and store in a new dataframe
+
+df_grouped_empty <- empty_likert_data  %>%
+  mutate(group = ceiling(row_number() / 10))  # Create groups of 10 rows
+
+mean_df_empty <- df_grouped_empty %>%
+  group_by(group) %>%
+  summarise(
+    mean_importance = mean(importance),
+    mean_likability = mean(likability),
+    mean_rt = mean(rt)
+  )
+
+# View the result
+print(mean_df_empty)
+```
+
+
+
+
+```{r, echo = TRUE}
+# For limited condition, calculate the mean importance, favorability and response time for each person and store in a new dataframe
+
+df_grouped_limited <- limited_likert_data  %>%
+  mutate(group = ceiling(row_number() / 10))  # Create groups of 10 rows
+
+
+mean_df_limited <- df_grouped_limited %>%
+  group_by(group) %>%
+  summarise(
+    mean_importance = mean(importance),
+    mean_likability = mean(likability),
+    mean_rt = mean(rt)
+  )
+
+# View the result
+print(mean_df_limited)
+```
+
+
+```{r, echo = TRUE}
+#Analysis for response time
+
+mean_column1 <- mean(mean_df_limited$mean_rt)
+mean_column2 <- mean(mean_df_empty$mean_rt)
+
+# Display the results
+cat("Mean of limited: ", mean_column1, "\n")
+cat("Mean of empty: ", mean_column2, "\n")
+```
+
+
+
+
+
+
+
+
+
+```{r, echo = TRUE}
+data_combined <- data.frame(
+  recall = c(mean_df_limited$mean_rt, mean_df_empty$mean_rt),
+  group = factor(c(rep("limited", length(mean_df_limited$mean_rt)),
+                   rep("empty", length(mean_df_empty$mean_rt))))
+)
+
+# Perform ANOVA to compare means of recall between the two groups
+anova_result_recall <- aov(recall ~ group, data = data_combined)
+
+# View the ANOVA summary
+summary(anova_result_recall)
+```
+
+
+```{r, echo = TRUE}
+# Create a data frame for plotting
+data_limited <- data.frame(
+  Category = "Limited",
+  MeanValue = mean_column1/100
+)
+
+data_empty <- data.frame(
+  Category = "Empty",
+  MeanValue = mean_column2/100
+)
+
+# Plot for limited
+plot_limited <- ggplot(data_limited, aes(x = Category, y = MeanValue, fill = Category)) +
+  geom_bar(stat = "identity", color = "white") +
+  scale_fill_manual(values = "purple") + 
+  labs(title = " ", x = " ", y = "Response Time") +
+  theme_minimal() +
+  theme(
+    legend.position = "none", 
+    plot.title = element_text(size = 16, face = "bold"),          # Larger plot title size
+    axis.title = element_text(size = 16),                         # Larger axis titles
+    axis.text = element_text(size = 20)                           # Larger axis labels
+  ) +
+  geom_text(aes(label = round(MeanValue, 2)), vjust = -0.5, color = "black",size = 6)+
+  scale_y_continuous(limits = c(0, 120))  # Set y-axis limits 
+
+# Plot for empty
+plot_empty <- ggplot(data_empty, aes(x = Category, y = MeanValue, fill = Category)) +
+  geom_bar(stat = "identity", color = "white") +
+  scale_fill_manual(values = "lavender") + 
+  labs(title = " ", x = " ", y = "Response Time") +
+  theme_minimal() +
+  theme(
+    legend.position = "none", 
+    plot.title = element_text(size = 16, face = "bold"),          # Larger plot title size
+    axis.title = element_text(size = 16),                         # Larger axis titles
+    axis.text = element_text(size = 20)                           # Larger axis labels
+  ) +
+  geom_text(aes(label = round(MeanValue, 2)), vjust = -0.5, color = "black",size = 6)+
+  scale_y_continuous(limits = c(0, 120))  # Set y-axis limits
+
+# Arrange both plots side by side
+grid.arrange(plot_limited, plot_empty, ncol = 2)
+```
+
+
+Our findings, demonstrated in the bar chart above, show that there is no statistically significant difference in the importance rating.
+
+```{r, echo = TRUE}
+#Analysis for favorability
+
+mean_column1 <- mean(mean_df_limited$mean_likability)
+mean_column2 <- mean(mean_df_empty$mean_likability)
+
+# Display the results
+cat("Mean of limited: ", mean_column1, "\n")
+cat("Mean of empty: ", mean_column2, "\n")
+
+data_combined <- data.frame(
+  recall = c(mean_df_limited$mean_likability, mean_df_empty$mean_likability),
+  group = factor(c(rep("limited", length(mean_df_limited$mean_likability)),
+                   rep("empty", length(mean_df_empty$mean_likability))))
+)
+
+# Perform ANOVA to compare means of recall between the two groups
+anova_result_recall <- aov(recall ~ group, data = data_combined)
+
+# View the ANOVA summary
+summary(anova_result_recall)
+```
+
+
+```{r, echo = TRUE}
+# Create a data frame for plotting
+data_limited <- data.frame(
+  Category = "Limited",
+  MeanValue = mean_column1
+)
+
+data_empty <- data.frame(
+  Category = "Empty",
+  MeanValue = mean_column2
+)
+
+# Plot for limited
+plot_limited <- ggplot(data_limited, aes(x = Category, y = MeanValue, fill = Category)) +
+  geom_bar(stat = "identity", color = "white") +
+  scale_fill_manual(values = "purple") + 
+  labs(title = " ", x = " ", y = "Favorability") +
+  theme_minimal() +
+  theme(
+    legend.position = "none", 
+    plot.title = element_text(size = 16, face = "bold"),          # Larger plot title size
+    axis.title = element_text(size = 16),                         # Larger axis titles
+    axis.text = element_text(size = 20)                           # Larger axis labels
+  ) +
+  geom_text(aes(label = round(MeanValue, 2)), vjust = -0.5, color = "black",size = 6)+
+  scale_y_continuous(limits = c(0, 7))  # Set y-axis limits 
+
+# Plot for empty
+plot_empty <- ggplot(data_empty, aes(x = Category, y = MeanValue, fill = Category)) +
+  geom_bar(stat = "identity", color = "white") +
+  scale_fill_manual(values = "lavender") + 
+  labs(title = " ", x = " ", y = "Favorability") +
+  theme_minimal() +
+  theme(
+    legend.position = "none", 
+    plot.title = element_text(size = 16, face = "bold"),          # Larger plot title size
+    axis.title = element_text(size = 16),                         # Larger axis titles
+    axis.text = element_text(size = 20)                           # Larger axis labels
+  ) +
+  geom_text(aes(label = round(MeanValue, 2)), vjust = -0.5, color = "black",size = 6)+
+  scale_y_continuous(limits = c(0, 7))  # Set y-axis limits
+
+# Arrange both plots side by side
+grid.arrange(plot_limited, plot_empty, ncol = 2)
+```
+
+
+Our findings, demonstrated in the bar chart above, show that there is no statistically significant difference between favorability ratings for the empty and limited space conditions.
+
+```{r, echo = TRUE}
+#Cleaning the responses for recall rate 
+
+quote1 <- "love has no limits"
+quote2 <- "a chance to grow"
+quote3 <- "is happiness doubled"
+quote4 <- "carry on."
+quote5 <- "precious to waste on regrets"
+quote6 <- "more in deeds than in words"
+quote7 <- "what makes you smile"
+quote8 <- "but women never forget"
+quote9 <- "one step at a time"
+quote10 <- "is an old friend"
+
+survey_text_data <- data %>%
+  filter(trial_type == "survey-text")
+survey_text_data <- survey_text_data %>%
+  filter(trial_index != 14)
+survey_text_data <- survey_text_data %>%
+  mutate(response = substr(response, 8, nchar(response)))
+survey_text_data <- survey_text_data %>%
+  mutate(
+    response_cleaned = response %>%
+      tolower() %>%                             # Convert to lowercase
+      str_replace_all("\\s+", " ") %>%           # Replace multiple spaces with a single space
+      str_replace_all("[[:punct:]]", "") %>%     # Remove punctuation
+      str_replace_all("[0-9]", "") %>%           # Remove numbers
+      str_replace_all("[^[:alnum:] ]", "") %>%   # Remove non-alphanumeric characters (excluding spaces)
+      str_trim() %>%                            # Remove leading and trailing whitespace
+      str_squish()# Remove extra spaces between words
+    , recall = case_when(
+      trial_index == 16 & response_cleaned == tolower(quote1) ~ TRUE,
+      trial_index == 17 & response_cleaned == tolower(quote2) ~ TRUE,
+      trial_index == 18 & response_cleaned == tolower(quote3) ~ TRUE,
+      trial_index == 19 & response_cleaned == tolower(quote4) ~ TRUE,
+      trial_index == 20 & response_cleaned == tolower(quote5) ~ TRUE,
+      trial_index == 21 & response_cleaned == tolower(quote6) ~ TRUE,
+      trial_index == 22 & response_cleaned == tolower(quote7) ~ TRUE,
+      trial_index == 23 & response_cleaned == tolower(quote8) ~ TRUE,
+      trial_index == 24 & response_cleaned == tolower(quote9) ~ TRUE,
+      trial_index == 25 & response_cleaned == tolower(quote10) ~ TRUE,
+      TRUE ~ FALSE
+    )
+  )
+```
+
+```{r, echo = TRUE}
+library(stringdist)
+
+# Define a threshold for fuzzy matching (e.g., 0.2 for 80% similarity)
+threshold <- 0.2
+
+# Compare response with quote1 if trial_index == 14, or with quote2 if trial_index == 15
+survey_text_data  <- survey_text_data  %>%
+  mutate(
+    recall_fuzzy = case_when(
+      trial_index == 16 & stringdist::stringdist(tolower(response_cleaned), tolower(quote1), method = "lv") / max(nchar(response_cleaned), nchar(quote1)) < threshold ~ TRUE,
+      trial_index == 17 & stringdist::stringdist(tolower(response_cleaned), tolower(quote2), method = "lv") / max(nchar(response_cleaned), nchar(quote2)) < threshold ~ TRUE,
+      trial_index == 18 & stringdist::stringdist(tolower(response_cleaned), tolower(quote3), method = "lv") / max(nchar(response_cleaned), nchar(quote1)) < threshold ~ TRUE,
+      trial_index == 19 & stringdist::stringdist(tolower(response_cleaned), tolower(quote4), method = "lv") / max(nchar(response_cleaned), nchar(quote2)) < threshold ~ TRUE,
+      trial_index == 20 & stringdist::stringdist(tolower(response_cleaned), tolower(quote5), method = "lv") / max(nchar(response_cleaned), nchar(quote1)) < threshold ~ TRUE,
+      trial_index == 21 & stringdist::stringdist(tolower(response_cleaned), tolower(quote6), method = "lv") / max(nchar(response_cleaned), nchar(quote2)) < threshold ~ TRUE,
+      trial_index == 22 & stringdist::stringdist(tolower(response_cleaned), tolower(quote7), method = "lv") / max(nchar(response_cleaned), nchar(quote1)) < threshold ~ TRUE,
+      trial_index == 23 & stringdist::stringdist(tolower(response_cleaned), tolower(quote8), method = "lv") / max(nchar(response_cleaned), nchar(quote2)) < threshold ~ TRUE,
+      trial_index == 24 & stringdist::stringdist(tolower(response_cleaned), tolower(quote9), method = "lv") / max(nchar(response_cleaned), nchar(quote1)) < threshold ~ TRUE,
+      trial_index == 25 & stringdist::stringdist(tolower(response_cleaned), tolower(quote10), method = "lv") / max(nchar(response_cleaned), nchar(quote2)) < threshold ~ TRUE,
+      TRUE ~ FALSE
+    )
+  )
+
+# Calculate the average of TRUE values in the recall column
+average_recall <- mean(survey_text_data$recall, na.rm = TRUE)
+
+# Print the result
+average_recall
+
+average_recall_fuzzy <- mean(survey_text_data$recall_fuzzy, na.rm = TRUE)
+average_recall_fuzzy
+
+
+empty_text_data <- survey_text_data %>%
+  filter(condition == "empty_space")
+
+limited_text_data <- survey_text_data %>%
+  filter(condition == "limited_space")
+
+df_text_limited <- limited_text_data  %>%
+  mutate(group = ceiling(row_number() / 10))  # Create groups of 10 rows
+```
+
+```{r, echo = TRUE}
+# Calculate the mean for each column within each group and store it in a new dataframe
+mean_text_limited <- df_text_limited %>%
+  group_by(group) %>%
+  summarise(
+    mean_recall = mean(recall),
+    mean_recall_fuzzy = mean(recall_fuzzy)
+  )
+
+df_text_empty<- empty_text_data  %>%
+  mutate(group = ceiling(row_number() / 10))  # Create groups of 10 rows
+
+# Calculate the mean for each column within each group and store it in a new dataframe
+mean_text_empty <- df_text_empty %>%
+  group_by(group) %>%
+  summarise(
+    mean_recall = mean(recall),
+    mean_recall_fuzzy = mean(recall_fuzzy)
+  )
+
+
+
+data_combined <- data.frame(
+  recall = c(mean_text_limited$mean_recall, mean_text_empty$mean_recall),
+  group = factor(c(rep("limited", length(mean_text_limited$mean_recall)),
+                   rep("empty", length(mean_text_empty$mean_recall))))
+)
+```
+
+```{r, echo = TRUE}
+# Perform ANOVA to compare means of recall between the two groups
+anova_result_recall <- aov(recall ~ group, data = data_combined)
+
+# View the ANOVA summary
+summary(anova_result_recall)
+
+mean_column1 <- mean(mean_text_limited$mean_recall)
+mean_column2 <- mean(mean_text_empty$mean_recall)
+
+# Display the results
+cat("Mean of limited: ", mean_column1, "\n")
+cat("Mean of empty: ", mean_column2, "\n")
+```
+
+```{r, echo = TRUE}
+# Create a data frame for plotting
+data_limited <- data.frame(
+  Category = "Limited",
+  MeanValue = mean_column1
+)
+
+data_empty <- data.frame(
+  Category = "Empty",
+  MeanValue = mean_column2
+)
+
+# Plot for limited
+plot_limited <- ggplot(data_limited, aes(x = Category, y = MeanValue, fill = Category)) +
+  geom_bar(stat = "identity", color = "white") +
+  scale_fill_manual(values = "purple") + 
+  labs(title = " ", x = " ", y = "Percentage of Recall") +
+  theme_minimal() +
+  theme(
+    legend.position = "none", 
+    plot.title = element_text(size = 16, face = "bold"),          # Larger plot title size
+    axis.title = element_text(size = 16),                         # Larger axis titles
+    axis.text = element_text(size = 20)                           # Larger axis labels
+  ) +
+  geom_text(aes(label = round(MeanValue, 2)), vjust = -0.5, color = "black",size = 6) +
+  scale_y_continuous(limits = c(0, 0.8))  # Set y-axis limits
+
+# Plot for empty
+plot_empty <- ggplot(data_empty, aes(x = Category, y = MeanValue, fill = Category)) +
+  geom_bar(stat = "identity", color = "white") +
+  scale_fill_manual(values = "lavender") + 
+  labs(title = " ", x = " ", y = "Percentage of Recall") +
+  theme_minimal() +
+  theme(
+    legend.position = "none", 
+    plot.title = element_text(size = 16, face = "bold"),          # Larger plot title size
+    axis.title = element_text(size = 16),                         # Larger axis titles
+    axis.text = element_text(size = 20)                           # Larger axis labels
+  ) +
+  geom_text(aes(label = round(MeanValue, 2)), vjust = -0.5, color = "black",size = 6)+
+  scale_y_continuous(limits = c(0, 0.8))  # Set y-axis limits
+
+# Arrange both plots side by side
+grid.arrange(plot_limited, plot_empty, ncol = 2)
+```
+Our findings, demonstrated in the bar chart above, show that there is no statistically significant difference between recall rate for both the empty and limted spaced condition when basing them on being an exact match.
+
+```{r, echo = TRUE}
+#Analysis for fuzzy recall
+
+data_combined <- data.frame(
+  recall = c(mean_text_limited$mean_recall_fuzzy, mean_text_empty$mean_recall_fuzzy),
+  group = factor(c(rep("limited", length(mean_text_limited$mean_recall_fuzzy)),
+                   rep("empty", length(mean_text_empty$mean_recall_fuzzy))))
+)
+
+# Perform ANOVA to compare means of recall between the two groups
+anova_result_recall_fuzzy <- aov(recall ~ group, data = data_combined)
+
+# View the ANOVA summary
+summary(anova_result_recall_fuzzy)
+
+
+mean_column1 <- mean(mean_text_limited$mean_recall_fuzzy)
+mean_column2 <- mean(mean_text_empty$mean_recall_fuzzy)
+
+# Display the results
+cat("Mean of limited: ", mean_column1, "\n")
+cat("Mean of empty: ", mean_column2, "\n")
+```
+
+```{r, echo = TRUE}
+# Create a data frame for plotting
+data_limited <- data.frame(
+  Category = "Limited",
+  MeanValue = mean_column1
+)
+
+data_empty <- data.frame(
+  Category = "Empty",
+  MeanValue = mean_column2
+)
+
+# Plot for limited
+plot_limited <- ggplot(data_limited, aes(x = Category, y = MeanValue, fill = Category)) +
+  geom_bar(stat = "identity", color = "white") +
+  scale_fill_manual(values = "purple") + 
+  labs(title = " ", x = " ", y = "Percentage of Fuzzy Recall") +
+  theme_minimal() +
+  theme(
+    legend.position = "none", 
+    plot.title = element_text(size = 16, face = "bold"),          # Larger plot title size
+    axis.title = element_text(size = 16),                         # Larger axis titles
+    axis.text = element_text(size = 20)                           # Larger axis labels
+  ) +
+  geom_text(aes(label = round(MeanValue, 2)), vjust = -0.5, color = "black",size = 6)
+
+# Plot for empty
+plot_empty <- ggplot(data_empty, aes(x = Category, y = MeanValue, fill = Category)) +
+  geom_bar(stat = "identity", color = "white") +
+  scale_fill_manual(values = "lavender") + 
+  labs(title = " ", x = " ", y = "Percentage of Fuzzy Recall") +
+  theme_minimal() +
+  theme(
+    legend.position = "none", 
+    plot.title = element_text(size = 16, face = "bold"),          # Larger plot title size
+    axis.title = element_text(size = 16),                         # Larger axis titles
+    axis.text = element_text(size = 20)                           # Larger axis labels
+  ) +
+  geom_text(aes(label = round(MeanValue, 2)), vjust = -0.5, color = "black",size = 6)
+
+# Arrange both plots side by side
+grid.arrange(plot_limited, plot_empty, ncol = 2)
+
+```
+
+Our findings, demonstrated in the bar chart above, show that there is no statistically significant difference between recall rate for both the empty and limted spaced condition when basing them on being an a "fuzzy" match.
+
+## Discussion
+
+### Summary of Replication Attempt
+
+After running our confirmatory test on our dependent variables we found that the results did not replicate the original paper’s results. The four dependent variables we ran confirmatory tests on are response time, statement importance, statement favorability, and statement recall. All four of these variables did not produce any statistically significant results. 
+
+As shown above in the bar charts above we had the following results for each variable: 
+
+Response Time: Empty space condition and the limited space condition 117.11 vs. 107.64 respectively; F(1, 84) = 0.37, p = .542 
+
+Statement Importance: Empty space condition and the limited space condition 4.12 vs. 4.51, respectively; F(1, 84) = 2.60, p = .111
+
+Statement Favorability: Empty space condition and the limited space condition 4.15 vs. 4.49, respectively; F(1, 84) = 1.76, p = .188
+
+Statement Recall: Empty space condition and the limited space condition 0.31 vs. 0.32, respectively; F(1, 84) = 0.08, p = .784 (Exact Match) 0.71 vs. 0.69, respectively; F(1, 84) = 0.18, p = .677 (Fuzzy Match).
+
+
+### Commentary
+
+After reviewing the results above and coming to the conclusion that our test did not find any significant difference between either condition (empty v limited space) we narrowed down the possible reasons for this. As mentioned previously, having to cut our sample size from the originally planned 128 to 84 could have severely impacted the results of the study. Even more so as the original study itself contained 94 participants which would then decrease the chances of detecting an effect equivalent to that of the original study. Along with having a decrease in participants, our randomization did not lead to an equal division of participants between the two conditions which could have also impacted our results. 
+
+In addition, not only were participants a potential factor in the failure to replicate but also the changes we had to make to the experiment due to the lack of information presented in the original published study contributed. Statements were not provided so we decided to proceed with popular ones off social media as well. The statements chosen may have impacted the results as we may have gone with better known statements or vice versa. That may have led to a change in all variables due to unknown factors such as feelings or thoughts attached to a statement. Knowing other confounding factors from the original study such as font type, size, text position and more would have been beneficial as well as it could have also affected how participants feel about the chosen statements. 
+
+Regardless of the inability to replicate the experiment we did find a minimal difference in mean scores of response time, statement favorability, and statement importance. This may imply that changes made to the experiment, such as new statements, could have a major role in these variables and be worth looking into further into in future studies.
+
+### Contributor Roles
+
+Paper Selection and literature guidance: Elaine
+Research Template Writing: Elaine, Shirley and Arushi (equal contribution)
+Running Pilots: Arushi
+Data Collection: Arushi and Shirley (equal contribution)
+Data Analysis: Elaine
+Presentation Preparation: Shirley
+Presentation of the replication: Elaine and Arushi (equal contribution)
+
+### Reference
+
+Kwan, Canice & Dai, Xianchi & Wyer, Jr. (2017). Contextual Influences on Message Persuasion: The Effect of Empty Space. Journal of Consumer Research. 44. 448-464. 10.1093/jcr/ucx051. 
